@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"      
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets" 
+      xmlns:jsf="http://xmlns.jcp.org/jsf"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">    
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"/>
+    </head>    
+
+<!--
+    -Esta plantilla es la que debes de pegar en el facelet que creaste 
+    y del cual borraste todo el contenido. Es de esta manera en la que hacemos 
+    que el facelet pueda ser etiquetado con la notacion de HTML5 y con los links
+    que agregue a un lado de <html ... me parece que son apis y si añadimos esas
+    marcas a las etiquetas de html5 por ejemplo: 
+    <button jsf:outcome="..." /> -- de html5 a notacion jsf -- <h:button />
+    
+Referencia: 
+https://docs.oracle.com/javaee/7/api/javax/faces/view/facelets/TagDecorator.html
+
+    esta notacion ui
+    pertenece creo a los elementos graficos de jsf
+
+    xmlns:ui="http://xmlns.jcp.org/jsf/facelets" 
+    
+    esta notacion a eventos o llamadas con los servlets o beans 
+    xmlns:jsf="http://xmlns.jcp.org/jsf"
+
+    para agregar elementos de html a los jsf
+    xmlns:h="http://xmlns.jcp.org/jsf/html"
+
+    para agregar elementos de primefaces 
+    xmlns:p="http://primefaces.org/ui"
+
+    Pareciera demasiado agregar primefaces y al iu de jsf porque en sí 
+    estamos separando totalmente la vista al escoger HTML5 y las acciones 
+    de nuestra pagina se las dejamos a jsf pero, creo que habrá cosas más 
+    adelante en las que quizas se puedan requerir y si no al final las borramos
+-->
+    <ui:include src="footer.xhtml"></ui:include>
+</html>
+
+
+

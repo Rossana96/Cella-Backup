@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/10/2018, 02:11:47 AM
+    Author     : chars
+*/
+footer {
+    background-color: lightblue;  
+    color: #000000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    background-color: lightblue;  
+    color: whitesmoke;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-style: oblique;
+    font-size: large;
+}
+#main-header a {
+    color: white;
+}
+
+h2 {
+    font: 200 90px/0.8 'Cookie', Helvetica, sans-serif, oblique;
+    color: darkslategray;
+    text-shadow: 4px 4px 3px rgba(0,0,0,0.1); 
+}
+
