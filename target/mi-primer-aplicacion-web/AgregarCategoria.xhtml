@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:jsf="http://xmlns.jcp.org/jsf"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui">
+  <head>
+    <title>Template</title>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+  </head>
+  <ui:include src="header.xhtml"></ui:include>
+  <ui:include src="navBar.xhtml"></ui:include>
+  <h:body>
+    <fieldset>
+      <legend>Agregar Categoria</legend>
+      <form>
+	<div>
+	  <label for="display-name"> Nombre de Categoria:
+	    <span class="warning">*(Obligatorio)</span>
+	  </label>
+	  <input type="text" id="nombrepatalla" name="ip-pantalla"
+		 pattern="[A-Za-z\s]+"
+		 maxlength="5" minlength="2" value="Aa" required=""/>
+	  <span></span>
+	  <div>
+	    <label for="display-name"> Cantidad de Artículos:
+	      <span class="warning">*(Obligatorio)</span>
+	    </label>
+	    <label for="disabled-ip"></label>
+	    <input type="nombre" name="ip-categorias"
+		   id="num-categorias"
+		   placeholder="Min: 1, max: 100"
+		   min="1" max="100" />
+	    <span></span>
+	  </div>
+	  <div>
+	    <input type="submit" class="submit" value="Guardar" />
+	  </div>
+	</div>
+      </form>
+
+    </fieldset>
+    <footer>Algunos derechos de autor</footer>
+  </h:body>
+  <ui:include src="footer.xhtml"></ui:include>
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="unam.mx.cella.proyecto_mi-primer-aplicacion-web_war_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>unam.mx.cella.modelo.Alumno</class>
+    <class>unam.mx.cella.modelo.Administrador</class>
+    <class>unam.mx.cella.modelo.Kit</class>
+    <class>unam.mx.cella.modelo.PertenecerMaterialCategoria</class>
+    <class>unam.mx.cella.modelo.ContenerKitMaterial</class>
+    <class>unam.mx.cella.modelo.Solicitarprestamoprofesor</class>
+    <class>unam.mx.cella.modelo.Solicitarprestamoalumno</class>
+    <class>unam.mx.cella.modelo.Material</class>
+    <class>unam.mx.cella.modelo.Profesor</class>
+    <class>unam.mx.cella.modelo.Subcategorias</class>
+    <class>unam.mx.cella.modelo.Unidadmaterial</class>
+    <class>unam.mx.cella.modelo.Categoria</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/cella"/>
+      <property name="javax.persistence.jdbc.user" value="postgres"/>
+      <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="ERab11++"/>
+    </properties>
+  </persistence-unit>
+</persistence>
